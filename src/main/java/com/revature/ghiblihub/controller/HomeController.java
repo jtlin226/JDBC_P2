@@ -20,4 +20,14 @@ public class HomeController {
     public String postReviewPage() {
         return "postreview";
     }
+
+    @RequestMapping("/login")
+    public String loginPage() {
+        return "login";
+    }
+
+    @RequestMapping("/login/newuser")
+    public String createUserPage() {
+        return "newuser";
+    }
 }
