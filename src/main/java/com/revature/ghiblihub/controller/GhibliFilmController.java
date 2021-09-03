@@ -63,7 +63,7 @@ public class GhibliFilmController {
 //    GhibliFilm createFilm(@RequestBody GhibliFilm film) {
 //        return ghibliFilmService.saveFilm(film);
 //    }
-//
+
 //    @DeleteMapping("/{id}")
 //    public @ResponseBody
 //    ResponseEntity<HttpStatus> deleteFilm(@PathVariable String id){
@@ -71,9 +71,9 @@ public class GhibliFilmController {
 //        return ResponseEntity.ok(HttpStatus.OK);
 //    }
 
-    @PutMapping
-    public @ResponseBody
-    GhibliFilm updateUser(@RequestBody GhibliFilm film){
-        return ghibliFilmService.saveFilm(film);
-    }
+//    @PutMapping
+//    public @ResponseBody
+//    GhibliFilm updateUser(@RequestBody GhibliFilm film){
+//        return ghibliFilmService.saveFilm(film);
+//    }
 }

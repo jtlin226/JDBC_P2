@@ -15,19 +15,4 @@ public class HomeController {
     public String homePage() {
         return "home";
     }
-
-    @RequestMapping("/postreview")
-    public String postReviewPage() {
-        return "postreview";
-    }
-
-    @RequestMapping("/login")
-    public String loginPage() {
-        return "login";
-    }
-
-    @RequestMapping("/login/newuser")
-    public String createUserPage() {
-        return "newuser";
-    }
 }
